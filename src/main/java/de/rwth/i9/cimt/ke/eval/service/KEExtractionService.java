@@ -19,7 +19,6 @@ import de.rwth.i9.cimt.ke.eval.repository.AuthorPublicationsRepository;
 import de.rwth.i9.cimt.ke.eval.repository.AuthorRepository;
 import de.rwth.i9.cimt.ke.eval.repository.PublicationKeywordsRepository;
 import de.rwth.i9.cimt.ke.eval.repository.PublicationRepository;
-import de.rwth.i9.cimt.ke.eval.util.WordCount;
 import de.rwth.i9.cimt.ke.lib.algorithm.kpextraction.jate.Jate;
 import de.rwth.i9.cimt.ke.lib.algorithm.kpextraction.rake.Rake;
 import de.rwth.i9.cimt.ke.lib.algorithm.kpextraction.textrank.LanguageEnglish;
@@ -30,6 +29,7 @@ import de.rwth.i9.cimt.ke.lib.algorithm.kpextraction.unsupervised.topicclusterin
 import de.rwth.i9.cimt.ke.lib.algorithm.kpextraction.unsupervised.topicclustering.TopicalPageRank;
 import de.rwth.i9.cimt.ke.lib.constants.KeyphraseExtractionAlgorithm;
 import de.rwth.i9.cimt.ke.lib.model.Keyword;
+import de.rwth.i9.cimt.ke.lib.util.WordCount;
 import de.rwth.i9.cimt.nlp.opennlp.OpenNLPImplSpring;
 import uk.ac.shef.dcs.jate.model.JATETerm;
 
